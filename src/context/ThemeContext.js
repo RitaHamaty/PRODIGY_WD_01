@@ -9,7 +9,6 @@ const ThemeProvider = ({children}) => {
     const [theme, setTheme] = useState(localStorage.getItem(Theme));
 
     const toggleTheme = (theme) => {
-        console.log(`from context ${theme}`)
         if ( theme === 'light') {
             setTheme('light') ;
             localStorage.setItem(Theme, 'light');
