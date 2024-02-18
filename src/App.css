@@ -1,0 +1,65 @@
+.menu.light{
+  background-color: rgb(230, 243, 255);
+  position: fixed;
+  width: 100%;
+}
+.menu.dark{
+  background-color: rgb(56, 59, 61);
+  position: fixed;
+  width: 100%;
+}
+.logo.light{
+  color: teal;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo.dark{
+  color: rgb(0, 238, 255);
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.span{
+  color: rgb(82, 224, 224);
+}
+.item.light{
+  margin:  0px 20px 0px 20px;
+  color: rgb(74, 119, 119);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.item.dark{
+  color: rgb(203, 255, 255);
+  margin:  0px 20px 0px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.item.light:hover{
+ text-decoration: underline teal;
+ color: rgb(44, 78, 78);
+ cursor: pointer;
+}
+.item.dark:hover{
+  text-decoration: underline teal;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+ }
+.sun{
+  color: rgb(255, 255, 0);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.moon{
+  color: rgb(255, 255, 126);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 5px;
+}
