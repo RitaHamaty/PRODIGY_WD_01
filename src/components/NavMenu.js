@@ -18,21 +18,19 @@ const NavMenu = () => {
 
   const handleClick = (event) => {
     toggleTheme(event);
-    console.log(event);
   };
 
   return (
     <Navbar collapseOnSelect  expand="lg" expanded={expanded} className={`menu ${theme}`}
       variant={theme === 'light' ? 'light' : 'dark'}>
       <Container >
-        <Navbar.Brand href='/' className={`logo ${theme}`}>Weather <span className='span' >Today</span> </Navbar.Brand>
+        <Navbar.Brand href='/' className={`logo ${theme}`}>Wedding <span className='span' >Planners</span> </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={toggleNavbar} />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-          <Nav.Link  to="/"  title='Home' className={`item ${theme}`}>Home</Nav.Link>
-            <Nav.Link  to="/" title='Services' className={`item ${theme}`}>Services</Nav.Link>
-            <Nav.Link  to="/"  title='About' className={`item ${theme}`}>About</Nav.Link>
-            <Nav.Link  to="/" title='Contact' className={`item ${theme}`}>Contact</Nav.Link>
+          <Nav.Link  href="/"  title='Home' className={`item ${theme}`}>Home</Nav.Link>
+            <Nav.Link href="/" title='Services' className={`item ${theme}`}>Services</Nav.Link>
+            <Nav.Link href="/"  title='About' className={`item ${theme}`}>About</Nav.Link>
             {theme === 'light' ? <FiSun className='sun' onClick={e => handleClick('dark')}/> : <LuMoonStar className='moon' onClick={e => handleClick('light')}/>}
           </Nav>
         </Navbar.Collapse>

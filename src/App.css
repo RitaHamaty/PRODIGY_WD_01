@@ -1,49 +1,55 @@
+.back.light{
+  background-color: rgba(255, 255, 255, 0.74);
+}
+.back.dark{
+  background-color: rgba(97, 97, 97, 0.356);
+}
 .menu.light{
-  background-color: rgb(230, 243, 255);
+  background-color: rgb(255, 230, 253);
   position: fixed;
   width: 100%;
 }
 .menu.dark{
-  background-color: rgb(56, 59, 61);
+  background-color: rgb(61, 56, 61);
   position: fixed;
   width: 100%;
 }
 .logo.light{
-  color: teal;
+  color: rgb(128, 0, 111);
   font-size: 25px;
   font-weight: 700;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .logo.dark{
-  color: rgb(0, 238, 255);
+  color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: 700;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .span{
-  color: rgb(82, 224, 224);
+  color: rgb(224, 82, 200);
 }
 .item.light{
   margin:  0px 20px 0px 20px;
-  color: rgb(74, 119, 119);
+  color: rgb(119, 74, 113);
   font-size: 20px;
   font-weight: 500;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .item.dark{
-  color: rgb(203, 255, 255);
+  color: rgb(255, 203, 244);
   margin:  0px 20px 0px 20px;
   font-size: 20px;
   font-weight: 500;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .item.light:hover{
- text-decoration: underline teal;
- color: rgb(44, 78, 78);
+ text-decoration: underline rgb(128, 0, 117);
+ color: rgb(78, 44, 72);
  cursor: pointer;
 }
 .item.dark:hover{
-  text-decoration: underline teal;
+  text-decoration: underline rgb(128, 0, 96);
   color: rgb(255, 255, 255);
   cursor: pointer;
  }
@@ -62,4 +68,36 @@
   cursor: pointer;
   margin-top: 10px;
   margin-left: 5px;
+}
+.par{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(180, 0, 156) ;
+}
+.par2{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 113, 231) ;
+}
+.ser{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+.offer{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+  color: rgb(180, 0, 150);
+}
+.backfooter{
+  background-color: rgb(255, 230, 253);
 }
